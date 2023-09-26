@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TestProject" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.TestProject" parent="Base.Theme.TestProject" />
+
+    <declare-styleable name="LoaderChip">
+        <attr name="loaderWidth" format="dimension"/>
+        <attr name="loaderColor" format="color"/>
+        <attr name="lapDuration" format="integer"/>
+        <attr name="loadOnClick" format="boolean"/>
+        <attr name="loaderColorStart" format="color"/>
+        <attr name="loaderColorEnd" format="color"/>
+        <attr name="reverseEffect" format="boolean"/>
+        <attr name="loadingText" format="string"/>
+        <attr name="loadingTextColor" format="color"/>
+        <attr name="loaderStyle" format="enum">
+            <enum name="fastOutSlowIn" value="1" />
+            <enum name="accelerate" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
